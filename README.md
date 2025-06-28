@@ -33,7 +33,7 @@ Perfect for study sessions, deep work, or silent focus — powered by `timer`, `
 ```bash
 sudo pacman -S zsh speech-dispatcher lolcat go git
 yay -S timer-bin   # or build manually below
-
+```
 
 ### 🐧 Ubuntu / Debian
 ```bash
@@ -45,6 +45,7 @@ git clone https://github.com/caarlos0/timer.git
 cd timer
 go build -o timer
 sudo mv timer /usr/local/bin/
+```
 
 ### 🐧 Fedora
 ```bash
@@ -55,3 +56,4 @@ git clone https://github.com/caarlos0/timer.git
 cd timer
 go build -o timer
 sudo mv timer /usr/local/bin/
+
